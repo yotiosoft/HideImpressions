@@ -3,8 +3,7 @@
     "description": "HideImpressions",
     "version": "1.0",
     "manifest_version": 3,
-    "permissions": ["tabs", "storage"],
-    "options_page": "options.html",
+    "permissions": ["tabs"],
     "content_scripts": [
         {
             "matches": ["https://twitter.com/*"],
