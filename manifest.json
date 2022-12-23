@@ -1,0 +1,25 @@
+{
+    "name": "HideImpressions",
+    "description": "HideImpressions",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["tabs", "storage"],
+    "options_page": "options.html",
+    "content_scripts": [
+        {
+            "matches": ["https://twitter.com/*"],
+            "js": ["hide_impressions.js"],
+            "all_frames": true,
+            "run_at": "document_end"
+        }
+    ],
+    "commands": {
+        "_extension_action": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+K",
+                "mac": "MacCtrl+Shift+K"
+            },
+            "description": "Run extension."
+        }
+    }
+}
