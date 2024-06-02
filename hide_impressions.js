@@ -37,4 +37,9 @@ function onRun() {
   hide_element_if_parent_and_child("css-175oi2r r-1d09ksm r-18u37iz r-1wbh5a2 r-1471scf", "css-1rynq56 r-bcqeeo r-qvutc0 r-1tl8opc r-a023e6 r-rjixqe r-16dba41 r-1q142lx r-s1qlax");
   hide_element_if_parent_and_child("css-1qaijid r-bcqeeo r-qvutc0 r-1tl8opc", "css-175oi2r r-xoduu5 r-1udh08x");
   hide_element_if_parent_and_child("css-1qaijid r-bcqeeo r-qvutc0 r-1tl8opc", "css-1qaijid r-bcqeeo r-qvutc0 r-1tl8opc r-1b43r93 r-1cwl3u0");
+  
+  // ver.1.5
+  hide_element_if_parent_and_child("css-146c3p1 r-bcqeeo r-1ttztb7 r-qvutc0 r-1tl8opc r-a023e6 r-rjixqe r-16dba41 r-1q142lx r-n7gxbd", "css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-1tl8opc");
+  hide_element_if_parent_and_child("css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-1tl8opc", "css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-1tl8opc");
+  hide_element_if_parent_and_child("css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-1tl8opc", "css-175oi2r r-xoduu5 r-1udh08x");
 }
